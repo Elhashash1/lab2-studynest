@@ -1,0 +1,204 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="StudyNest is a responsive student dashboard showcasing reusable accessible interface components.">
+  <meta name="theme-color" content="#f7f9fc">
+  <title>StudyNest | Student Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#top" aria-label="StudyNest home">
+        <span class="brand-mark" aria-hidden="true">S</span>
+        <span>StudyNest<span class="brand-dot">.</span></span>
+      </a>
+      <nav aria-label="Main navigation" class="main-nav">
+        <a href="#courses">Courses</a>
+        <a href="#components">Components</a>
+        <a href="#about">About</a>
+      </nav>
+      <a class="header-action" href="#components">Explore UI <span aria-hidden="true">↗</span></a>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <section id="top" class="hero container" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <span class="eyebrow"><span class="eyebrow-dot" aria-hidden="true"></span> YOUR STUDY SPACE, SIMPLIFIED</span>
+        <h1 id="hero-title">Big goals.<br><span class="accent-text">Small steps.</span></h1>
+        <p class="hero-description">Stay inspired, explore your subjects, and keep your learning journey moving forward — one lesson at a time.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#courses">Browse courses <span aria-hidden="true">→</span></a>
+          <a class="btn btn-outline" href="#modal">How it works</a>
+        </div>
+        <p class="hero-note">Made for curious minds and busy students.</p>
+      </div>
+      <div class="hero-panel" aria-label="Weekly progress illustration">
+        <div class="panel-top">
+          <span class="panel-label">YOUR WEEK AT A GLANCE</span>
+          <span class="pill pill-neutral">Week 02</span>
+        </div>
+        <div class="progress-ring" aria-label="Learning illustration: 75 percent progress">
+          <div class="progress-center"><strong>75%</strong><span>Weekly goal</span></div>
+        </div>
+        <div class="panel-divider"></div>
+        <div class="panel-bottom">
+          <span class="check-icon" aria-hidden="true">✓</span>
+          <div><strong>You're making progress!</strong><span>Every little win counts.</span></div>
+          <span class="sparkles" aria-hidden="true">✦</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="courses" class="section courses-section" aria-labelledby="courses-title">
+      <div class="container">
+        <div class="section-heading">
+          <div>
+            <span class="section-kicker">EXPLORE &amp; LEARN</span>
+            <h2 id="courses-title">Find your next focus</h2>
+            <p>Something interesting is always one click away.</p>
+          </div>
+          <span class="count-label">06 SUBJECTS</span>
+        </div>
+
+        <div class="course-grid">
+          <article class="course-card">
+            <div class="course-symbol symbol-mint" aria-hidden="true">&lt;/&gt;</div>
+            <span class="course-category">DEVELOPMENT</span>
+            <h3>Web Development</h3>
+            <p>Build accessible, beautiful experiences for the web.</p>
+            <div class="course-footer"><span>Beginner friendly</span><a href="#components" aria-label="Explore Web Development components">Explore <span aria-hidden="true">↗</span></a></div>
+          </article>
+          <article class="course-card">
+            <div class="course-symbol symbol-lavender" aria-hidden="true">∑</div>
+            <span class="course-category">MATHEMATICS</span>
+            <h3>Number Theory</h3>
+            <p>Discover clever patterns behind everyday numbers.</p>
+            <div class="course-footer"><span>Core concepts</span><a href="#about" aria-label="Learn about Number Theory on StudyNest">Explore <span aria-hidden="true">↗</span></a></div>
+          </article>
+          <article class="course-card">
+            <div class="course-symbol symbol-peach" aria-hidden="true">✳</div>
+            <span class="course-category">CREATIVE</span>
+            <h3>UI Design</h3>
+            <p>Turn simple ideas into thoughtful visual interfaces.</p>
+            <div class="course-footer"><span>Creative skills</span><a href="#components" aria-label="Explore UI Design components">Explore <span aria-hidden="true">↗</span></a></div>
+          </article>
+          <article class="course-card">
+            <div class="course-symbol symbol-sky" aria-hidden="true">{ }</div>
+            <span class="course-category">PROGRAMMING</span>
+            <h3>Python Basics</h3>
+            <p>Practice problem solving through hands-on coding.</p>
+            <div class="course-footer"><span>Start here</span><a href="#components" aria-label="Explore Python Basics components">Explore <span aria-hidden="true">↗</span></a></div>
+          </article>
+          <article class="course-card">
+            <div class="course-symbol symbol-yellow" aria-hidden="true">▥</div>
+            <span class="course-category">DATA</span>
+            <h3>Statistics</h3>
+            <p>Understand data and ask better questions with it.</p>
+            <div class="course-footer"><span>Data skills</span><a href="#about" aria-label="Learn about Statistics on StudyNest">Explore <span aria-hidden="true">↗</span></a></div>
+          </article>
+          <article class="course-card">
+            <div class="course-symbol symbol-rose" aria-hidden="true">◎</div>
+            <span class="course-category">FUNDAMENTALS</span>
+            <h3>Computer Science</h3>
+            <p>Connect key ideas behind modern technology.</p>
+            <div class="course-footer"><span>Essentials</span><a href="#about" aria-label="Learn about Computer Science on StudyNest">Explore <span aria-hidden="true">↗</span></a></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="components" class="section components-section" aria-labelledby="components-title">
+      <div class="container">
+        <div class="section-heading">
+          <div>
+            <span class="section-kicker">COMPONENT LIBRARY</span>
+            <h2 id="components-title">Made to be useful</h2>
+            <p>A small collection of clean, accessible interface elements.</p>
+          </div>
+        </div>
+        <div class="component-grid">
+          <div class="component-box">
+            <h3>Plan a study task</h3>
+            <p class="box-description">Try these form inputs and select controls.</p>
+            <form action="#form-feedback" method="get">
+              <div class="field">
+                <label for="task-name">Task name <span class="required-label">(required)</span></label>
+                <input id="task-name" name="task" type="text" placeholder="e.g. Review lecture notes" required maxlength="80" autocomplete="off">
+              </div>
+              <div class="field">
+                <label for="subject">Subject <span class="required-label">(required)</span></label>
+                <select id="subject" name="subject" required>
+                  <option value="" selected disabled>Choose a subject</option>
+                  <option value="web-development">Web Development</option>
+                  <option value="number-theory">Number Theory</option>
+                  <option value="statistics">Statistics</option>
+                  <option value="computer-science">Computer Science</option>
+                </select>
+              </div>
+              <div class="field">
+                <label for="notes">Notes <span class="optional-label">(optional)</span></label>
+                <textarea id="notes" name="notes" rows="3" placeholder="What do you want to work on?"></textarea>
+              </div>
+              <button class="btn btn-primary btn-full" type="submit">Try the form <span aria-hidden="true">→</span></button>
+              <p class="form-disclaimer">Front-end demo only. No tasks are stored.</p>
+              <p class="form-feedback" id="form-feedback" role="status">Your browser validated the form! This is a demo, so nothing was saved.</p>
+            </form>
+          </div>
+          <div class="component-box component-showcase">
+            <h3>Buttons, alerts &amp; modal</h3>
+            <p class="box-description">A few more reusable components in action.</p>
+            <h4 class="mini-heading">Buttons</h4>
+            <div class="sample-buttons">
+              <a href="#modal" class="btn btn-primary">Open modal</a>
+              <a href="#about" class="btn btn-outline">Learn more</a>
+            </div>
+            <h4 class="mini-heading">Notification / Alert</h4>
+            <div class="notice notice-success" role="status">
+              <span class="notice-icon" aria-hidden="true">✓</span>
+              <div><strong>All set!</strong><p>Your learning space is ready to explore.</p></div>
+            </div>
+            <div class="notice notice-info" role="note">
+              <span class="notice-icon" aria-hidden="true">i</span>
+              <div><strong>Helpful tip</strong><p>Small study sessions add up over time.</p></div>
+            </div>
+            <p class="showcase-footnote">The modal opens with CSS only — no JavaScript.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="about-section" aria-labelledby="about-title">
+      <div class="container about-inner">
+        <div>
+          <span class="section-kicker">BUILT WITH CARE</span>
+          <h2 id="about-title">Learning should feel lighter.</h2>
+          <p>This responsive student dashboard is created using semantic HTML and CSS. It adapts to phones, tablets, and desktops — and automatically respects your system's light or dark theme.</p>
+        </div>
+        <a class="btn btn-outline" href="#top">Back to top ↑</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner"><span><strong>StudyNest.</strong> A place for better learning.</span><span>HTML + CSS · Responsive &amp; accessible</span></div>
+  </footer>
+
+  <!-- CSS-only modal: :target toggles visibility; no JavaScript is used. -->
+  <div id="modal" class="modal-overlay">
+    <a class="modal-backdrop" href="#components" aria-label="Close information dialog"></a>
+    <section class="modal-window" role="dialog" aria-modal="true" aria-labelledby="modal-title" aria-describedby="modal-description">
+      <a class="modal-close" href="#components" aria-label="Close information dialog">×</a>
+      <span class="modal-emoji" aria-hidden="true">✦</span>
+      <h2 id="modal-title">How StudyNest works</h2>
+      <p id="modal-description">Browse your interests, explore the UI components, and try creating a sample study task. Everything works with HTML and CSS — no JavaScript is needed for this modal.</p>
+      <a class="btn btn-primary" href="#components">Got it!</a>
+    </section>
+  </div>
+</body>
+</html>
